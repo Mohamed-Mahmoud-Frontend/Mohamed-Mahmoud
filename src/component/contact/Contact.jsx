@@ -80,7 +80,6 @@ value={input}
           
             disabled={state.submitting}
             className="submit"
-            onClick={handleClick}
           >
             {state.submitting ? "submitting" : "submit" }
             
