@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+footer div p{
+    color: var(--title);
+font-size: 1.3rem;
+}
+footer div p a {
+    color: var(--title);
+}
+.icons-footer{
+    display: flex;
+    gap: 3.5rem;
+
+}
