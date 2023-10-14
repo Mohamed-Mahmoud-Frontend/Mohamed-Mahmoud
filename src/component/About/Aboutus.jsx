@@ -1,6 +1,6 @@
 import "./About.css";
 import image from "../hero/img.png"
-const About = () => {
+const Aboutus = () => {
   return (
     <section id="about" >
 
@@ -25,4 +25,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Aboutus;
