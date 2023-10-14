@@ -4,12 +4,13 @@ import { MdVerified } from "react-icons/md";
 import { BsFacebook, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 import Lottie from "lottie-react";
 import lap from "../../assets/animation/lap.json";
+import image from './img.png'
 export const Hero = () => {
   return (
     <section className="hero sectionHero" id="hero">
       <div className="left-section ">
         <div className="parent-avatar flex">
-          <img className="avatar" src="./img.png" alt="" />
+          <img className="avatar" src={image} alt="" />
           <div className="name">
           <span>My name is :</span>
           <h1> Mohamed Mahmoud</h1>
@@ -46,15 +47,15 @@ export const Hero = () => {
             <BsLinkedin className="icon" />
           </a>
           <a href="https://github.com/Mohamed-Mahmoud-Frontend">
-            {" "}
+
             <BsGithub className="icon" />
           </a>
           <a href="https://www.facebook.com/profile.php?id=100012385380960">
-            {" "}
+
             <BsFacebook className="icon" />
           </a>
           <a href="https://www.instagram.com/hamasa.11/">
-            {" "}
+
             <BsInstagram className="icon" />
           </a>
         </div>

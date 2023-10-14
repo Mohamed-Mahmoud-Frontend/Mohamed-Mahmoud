@@ -8,7 +8,7 @@ import { AiOutlineArrowUp } from "react-icons/ai";
 import { useState, useEffect } from "react";
 import ScaleLoader from "react-spinners/ScaleLoader";
 import SkillsData from "./component/skills/SkillsData";
-import About from "./component/About/Aboutus";
+import InfoAbout from "./component/info/InfoAbout";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -47,7 +47,7 @@ function App() {
           <Header />
           <Hero />
           <div className="divider" />
-            <About />
+            <InfoAbout />
           <div className="divider" />
           <SkillsData />
           <div className="divider" />

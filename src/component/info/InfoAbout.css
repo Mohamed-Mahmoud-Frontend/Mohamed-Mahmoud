@@ -1,32 +1,28 @@
-#about h2{
+    #about h2 {
     font-size: 2rem;
     color: var(--title);
     /* margin-top: 10px; */
     margin-bottom: 30px;
-
-}
-#about{
+    }
+    #about {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+    }
 
-
-#about p {
+    #about p {
     width: 84%;
     margin-top: 20px;
     font-size: 1rem;
-}
-@media (max-width: 700px) {
-    #about{
+    }
+    @media (max-width: 700px) {
+    #about {
         flex-direction: column;
-     }
-     #about p{
+    }
+    #about p {
         width: 100%;
-     }
-     #about .imgAbout img{
+    }
+    #about .imgAbout img {
         width: 95%;
- 
-}
-    
-}
+    }
+    }
