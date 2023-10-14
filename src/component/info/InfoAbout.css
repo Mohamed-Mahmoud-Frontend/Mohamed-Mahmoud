@@ -12,6 +12,9 @@
       color: #000;
       
     }
+    .title{
+        width: 100%;
+    }
     #about {
         display: flex;
         align-items: center;

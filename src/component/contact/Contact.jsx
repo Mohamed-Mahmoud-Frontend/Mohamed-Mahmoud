@@ -88,6 +88,7 @@ value={input}
           {state.succeeded && (
             <p
               style={{
+                color :"var(--title)",
                 marginTop: ".5rem",
                 fontSize: "20px",
                 display: "flex",
