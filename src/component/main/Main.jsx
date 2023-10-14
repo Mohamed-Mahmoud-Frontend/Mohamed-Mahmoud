@@ -83,7 +83,7 @@ const allProject = [
     image: "/2.jpg",
     subTitle:
       " website html&css project is a comprehensive website html&css solution built using html&css .",
-    link: "https://frontend-project-tau.vercel.app/",
+    link: "https://frontend-project-tau.vercel.app/"  ,
     gitHub :"https://github.com/Mohamed-Mahmoud-Frontend"
 
   },

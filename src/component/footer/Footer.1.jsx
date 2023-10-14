@@ -1,4 +1,3 @@
-import "./Footer.css";
 import { BsFacebook, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 export const Footer = () => {
@@ -25,7 +24,7 @@ export const Footer = () => {
         <p>
           © 2023{" "}
           <a href="https://www.linkedin.com/in/mohamed-mahmoud-75bba4291/">
-            Mohamed Mahomud
+            Mohamed Mahmoud
           </a>
           . All rights reserved.
         </p>

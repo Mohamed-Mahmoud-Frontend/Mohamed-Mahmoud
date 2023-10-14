@@ -9,7 +9,7 @@ const InfoAbout = () => {
           <span>
             <b>Name :</b> Mohamed Mahmoud <b>
             <br/>
-            Role : </b> Front End Developer
+            Job title : </b> Front End Developer
           </span>
           <br/>
 

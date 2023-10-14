@@ -1,5 +1,4 @@
-
-import "./index.css"
+import "./index.css";
 import { Contact } from "./component/contact/Contact";
 import { Header } from "./component/header/Header";
 import { Hero } from "./component/hero/Hero";
@@ -12,61 +11,62 @@ import SkillsData from "./component/skills/SkillsData";
 import InfoAbout from "./component/info/InfoAbout";
 
 function App() {
-    const [loading, setLoading] = useState(false);
-    const [scrollButton, setScrollButton] = useState(false);
-    useEffect(() => {
-      setLoading(true);
-      setTimeout(() => {
-        setLoading(false);
-      }, 3000);
-    }, []);
-    useEffect(() => {
-      window.addEventListener("scroll", () => {
-        if (window.scrollY > 300) {
-          setScrollButton(true);
-        } else {
-          setScrollButton(false);
-        }
-      });
+  const [loading, setLoading] = useState(false);
+  const [scrollButton, setScrollButton] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) {
+        setScrollButton(true);
+      } else {
+        setScrollButton(false);
+      }
     });
+  });
 
-    return (
-      <div>
-        {loading ? (
-          <div className="spinner">
-            <ScaleLoader
-              color="#fff"
-              cssOverride={{}}
-              height={100}
-              loading
-              margin={6}
-              width={10}
-            />
-          </div>
-        ) : (
-          <div className="container" id="up">
-            <Header />
-            <Hero />
-            <div className="divider" />
-            <InfoAbout />
-            <div className="divider" />
-            <SkillsData />
-            <div className="divider" />
-            <Main />
-            <div className="divider" />
-            <Contact />
-            <div className="divider" />
-            <Footer />
+  return (
+    <div>
+      {loading ? (
+        <div className="spinner">
+          <ScaleLoader
+            color="#fff"
+            cssOverride={{}}
+            height={100}
+            loading
+            margin={6}
+            width={10}
+          />
+        </div>
+      ) : (
+        <div className="container" id="up">
+          <Header />
+          <Hero />
+          <div className="divider" />
+          <InfoAbout />
+          <div className="divider" />
+          <SkillsData />
+          <div className="divider" />
+          <Main />
+          <div className="divider" />
+          <Contact />
+          <div className="divider" />
+          <Footer />
 
-            <a
-              style={{ opacity: scrollButton ? 1 : 0, transition: ".5s" }}
-              href="#up"
-            ><AiOutlineArrowUp className="icon-fixed" />
-            </a>
-          </div>
-        )}
-      </div>
-    );
-  }
+          <a
+            style={{ opacity: scrollButton ? 1 : 0, transition: ".5s" }}
+            href="#up"
+          >
+            <AiOutlineArrowUp className="icon-fixed" />
+          </a>
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default App;
