@@ -8,8 +8,11 @@
 footer div p{
     color: var(--title);
 font-size: 1.3rem;
+margin-bottom: 1rem;
 }
 footer div p a {
+margin-top: 2rem;
+
     color: var(--title);
 }
 .icons-footer{

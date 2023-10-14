@@ -43,7 +43,7 @@ export const Hero = () => {
         front-end development to deliver high-quality and efficient solutions.  
           </p>*/}
         <div className="icons">
-          <a href="https://www.linkedin.com/in/mohamed-mahmoud-8b1538254/">
+          <a href="https://www.linkedin.com/in/mohamed-mahmoud-75bba4291/">
             <BsLinkedin className="icon" />
           </a>
           <a href="https://github.com/Mohamed-Mahmoud-Frontend">

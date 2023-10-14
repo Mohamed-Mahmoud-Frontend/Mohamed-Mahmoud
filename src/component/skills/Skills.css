@@ -36,3 +36,13 @@
   margin-bottom: 2rem;
 
 }
+@media (max-width : 600px) {
+  .skills div img{
+    width: 55px;
+  }
+  .skills>h1 {
+    font-size: 2.05rem;
+
+  }
+  
+}

@@ -11,7 +11,8 @@ const allProject = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXKsw0wE25AxZPm4f8P9bzRl5IKY9AvjaABg&usqp=CAU",
     subTitle:
       "The Amazon Clone project is a comprehensive e-commerce solution built using ReactJS.",
-    link: "https://amazonn-clone-sigma.vercel.app/",
+    link: "https://amazonn-clone-sigma.vercel.app/", 
+    gitHub :"https://github.com/Mohamed-Mahmoud-Frontend"
   },
   {
     title: "website Gim fit",
@@ -20,6 +21,7 @@ const allProject = [
     subTitle:
       "The website Gim fit project is a comprehensive Gim fit solution built using ReactJS.",
     link: "https://fit-club-lilac.vercel.app/",
+    gitHub :"https://github.com/Mohamed-Mahmoud-Frontend"
   },
 
   {
@@ -30,6 +32,8 @@ const allProject = [
     subTitle:
       "The website Restaurant project is a comprehensive  Restaurant solution built using ReactJS.",
     link: "https://restrant-frontend-react.vercel.app/",
+    
+    gitHub :"https://github.com/Mohamed-Mahmoud-Frontend"
   },
   {
     title: "website portfolio react",
@@ -38,6 +42,8 @@ const allProject = [
     subTitle:
       "The Amazon Clone project is a comprehensive e-commerce solution built using ReactJS.",
     link: "https://portfolio-react-mu-six.vercel.app/",
+    gitHub :"https://github.com/Mohamed-Mahmoud-Frontend"
+
   },
   {
     title: "website watch by bootstrap ",
@@ -46,6 +52,8 @@ const allProject = [
     subTitle:
       " website watch project is a comprehensive website watch solution built using bootstrap css.",
     link: "https://website-bootstrap-watch.vercel.app/",
+    gitHub :"https://github.com/Mohamed-Mahmoud-Frontend"
+
   },
 
   {
@@ -55,6 +63,8 @@ const allProject = [
     subTitle:
       "website cars project is a comprehensive website cars solution built using bootstrap css.",
     link: "https://audi-cars.vercel.app/",
+    gitHub :"https://github.com/Mohamed-Mahmoud-Frontend"
+
   },
   {
     title: "website iphone by js ",
@@ -64,6 +74,8 @@ const allProject = [
     subTitle:
       "The website iphone project is a comprehensive website iphone solution built using javascript .",
     link: "https://make-a-creative-landing-page-using-html-css-js.vercel.app/",
+    gitHub :"https://github.com/Mohamed-Mahmoud-Frontend"
+
   },
   {
     title: "project html&css ",
@@ -72,6 +84,8 @@ const allProject = [
     subTitle:
       " website html&css project is a comprehensive website html&css solution built using html&css .",
     link: "https://frontend-project-tau.vercel.app/",
+    gitHub :"https://github.com/Mohamed-Mahmoud-Frontend"
+
   },
 ];
 export const Main = () => {
@@ -154,8 +168,9 @@ export const Main = () => {
 
                   <div className="icon-card flex">
                     <div style={{ gap: "11px" }} className="flex">
-                      <BsLink45Deg></BsLink45Deg>
-                      <BsGithub />
+                    <a href={item.gitHub}><BsLink45Deg/></a>
+                      <a href={item.gitHub}> <BsGithub /></a>
+                      
                     </div>
                     <div className="flex link">
                       <a href={item.link}>

@@ -61,10 +61,7 @@ function App() {
             <a
               style={{ opacity: scrollButton ? 1 : 0, transition: ".5s" }}
               href="#up"
-            >
-              <button>
-                <AiOutlineArrowUp className="icon-fixed" />
-              </button>
+            ><AiOutlineArrowUp className="icon-fixed" />
             </a>
           </div>
         )}
