@@ -1,7 +1,4 @@
-
-
 nav {
-    
     background-color: var(--border);
     padding: 0.77rem 1.6rem;
     border-radius: 55px;
@@ -28,7 +25,7 @@ header ul li a {
     transition: 0.2s;
     font-style: 0.88rem;
     font-weight: 500;
-text-align: center;
+    text-align: center;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
     -ms-transition: 0.2s;
@@ -44,13 +41,16 @@ header ul li a:hover {
 header button {
     font-style: 1.2rem;
 }
+
 button svg {
     margin: auto;
 }
-.FiMenu{
-   display: flex;
+
+.FiMenu {
+    display: flex;
     align-items: center;
 }
+
 button,
 .mode {
     background: var(--border);
@@ -78,7 +78,6 @@ button,
 
 .menu:hover,
 .mode:hover {
-    
     scale: 1.1;
     border: 1px solid #197183;
 }
@@ -97,7 +96,8 @@ header .fixed {
     background-color: rgba(40, 40, 48, 0.91);
     backdrop-filter: blur(4px);
 }
-.close{
+
+.close {
     all: unset;
     color: var(--subtitle);
     transition: 0.3s;
@@ -107,31 +107,31 @@ header .fixed {
     -moz-transition: 0.3s;
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
-    
-} .close:hover{
+}
+
+.close:hover {
     font-style: 1.7rem;
     color: crimson;
     scale: 1.1;
 }
-.light .mode{
-    /* background-color:#F28C38; */
+
+.light .mode {
     box-shadow: 1px 1px 40px #c2c2c2;
+}
 
+.light .mode .sunFill {
+    color: #f28c38;
 }
-.light .mode .sunFill{
-    
-    color: #F28C38;
-}
-.dark .mode ,.dark .menu{
-    background-color:#444444;
+
+.dark .mode,
+.dark .menu {
+    background-color: #444444;
     box-shadow: 1px 1px 40px #3a3a3a;
-
-
-}
-.moonFill{
-    color:#F5F3CE ;
 }
 
+.moonFill {
+    color: #f5f3ce;
+}
 
 @keyframes animation {
     0% {
@@ -146,7 +146,8 @@ header .fixed {
         scale: 1;
     }
 }
-header .fixed .modal li:first-child{
+
+header .fixed .modal li:first-child {
     text-align: right;
     border: none;
     padding-bottom: 0;
@@ -171,8 +172,6 @@ header .fixed .modal li {
     padding-top: 0.5rem;
 }
 
-
-
 header .fixed .modal li:last-child {
     border: none;
 }
@@ -185,17 +184,15 @@ header .fixed .modal li a {
     nav {
         display: none;
     }
-    header{
+
+    header {
         display: flex;
-align-items: center;
+        align-items: center;
     }
 
     .menu {
-        /* background-color: #b1afaf; */
-    background-color: #dadadacb;
-
+        background-color: #dadadacb;
         border: 1px solid var(--blue);
-
         width: 40px;
         border-radius: 50%;
         height: 40px;
@@ -204,12 +201,13 @@ align-items: center;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-}
-.light .menu .FiMenu{
-    /* background-color: #F5F3CE; */
-    color: #000;
-}
-    .find{
+    }
+
+    .light .menu .FiMenu {
+        color: #000;
+    }
+
+    .find {
         display: none;
     }
 }

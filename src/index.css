@@ -21,7 +21,7 @@
   --bgHeader: rgb(253, 253, 253);
   --blue: rgb(0, 149, 246);
   --icon-hover: #333;
-  --button-color:rgb(255, 0, 0);
+  --button-color: rgb(255, 0, 0);
 }
 
 html {
@@ -39,7 +39,7 @@ html {
 
 body {
   background-color: var(--primary);
-  /* background: radial-gradient(ellipse at bottom, #10161f 0%, #090c1b 100%); */
+
 }
 
 /* ========scroll bar ============ */
@@ -65,11 +65,11 @@ body {
 /* ::-for Firefox */
 html {
   scroll-behavior: smooth;
-  scrollbar-color: #9e4673 #3d4a59;
+  scrollbar-color: #1f1e1e #3d4a59;
 }
 
 /* ========scroll bar ============ */
-
+/* =====container ========= */
 .container {
   background-color: var(--secondary);
   color: #fff;
@@ -79,15 +79,17 @@ html {
   padding: 0 var(--paddingDivider);
   border: 1px solid var(--border);
 }
-
+/* =============media query======== */
 @media (max-width: 600px) {
   .container {
     width: 95%;
     padding: 0 var(--paddingDivider);
   }
+
   .icon-fixed {
     opacity: 0.5;
   }
+
   .divider {
     --paddingDivider: 1.7rem;
     width: calc(100% + var(--paddingDivider) + var(--paddingDivider));
@@ -108,6 +110,7 @@ html {
     margin-left: calc(var(--paddingDivider) * -1);
   }
 }
+/*======== end media query==== */
 
 .divider {
   margin: 3rem 0;
@@ -124,9 +127,11 @@ a {
   text-decoration: none;
   color: initial;
 }
+
 button {
   all: unset;
 }
+
 .icon-fixed {
   transition: 0.3s;
   background-color: rgba(128, 128, 128, 0.5);
@@ -148,10 +153,11 @@ button {
 .icon-fixed:hover {
   background-color: gray;
 }
+
 .flex {
   display: flex;
 }
-
+/*========== spinner screen=========== */
 .spinner {
   background: radial-gradient(ellipse at bottom, #10161f 0%, #090c1b 100%);
   width: 100%;
@@ -163,15 +169,17 @@ button {
   align-items: center;
   justify-content: center;
 }
+
 .spinner h1 {
   margin: 50px;
   color: #fff;
 }
+
 .spinner .PacmanLoader {
   color: #1e1e69;
 }
-.imgSkills div img {
-  width: 80px;
-}
+/*========== end screen=========== */
 
-/* =============background========== */
+/* =========image component skills====== */
+.imgSkills div img {
+  width: 80px;}
