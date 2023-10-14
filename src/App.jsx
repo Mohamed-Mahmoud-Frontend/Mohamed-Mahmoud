@@ -17,21 +17,20 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    },3000);
+    }, 3000);
   }, []);
-  useEffect(()=>{
-    window.addEventListener("scroll" , ()=>{
-      if(window.scrollY > 300){
-        setScrollButton(true)
-      }else{
-        setScrollButton(false)
-
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) {
+        setScrollButton(true);
+      } else {
+        setScrollButton(false);
       }
-    })
-  })
+    });
+  });
 
   return (
-    <div >
+    <div>
       {loading ? (
         <div className="spinner">
           <ScaleLoader
@@ -44,31 +43,28 @@ function App() {
           />
         </div>
       ) : (
-        <div className="container" id="up" >
+        <div className="container" id="up">
           <Header />
           <Hero />
           <div className="divider" />
-
           <About />
-
           <div className="divider" />
           <SkillsData />
-
           <div className="divider" />
-
           <Main />
           <div className="divider" />
           <Contact />
           <div className="divider" />
           <Footer />
 
-          <a  style={{opacity:scrollButton?1 : 0 ,transition:".5s"}} href="#up">
+          <a
+            style={{ opacity: scrollButton ? 1 : 0, transition: ".5s" }}
+            href="#up"
+          >
             <button>
               <AiOutlineArrowUp className="icon-fixed" />
-              
             </button>
-          </a> 
-
+          </a>
         </div>
       )}
     </div>
