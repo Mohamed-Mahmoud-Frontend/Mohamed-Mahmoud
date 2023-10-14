@@ -1,5 +1,5 @@
 import "./About.css";
-import image from "../../../public/img.png"
+import image from "../hero/img.png"
 const About = () => {
   return (
     <section id="about" >
@@ -17,8 +17,8 @@ const About = () => {
         Compatibility Version Control Git Teamwork
       </p>
     </div>
-    <div>
-    <img style={{width:"400px"}} src={image}alt=""/>
+    <div className="imgAbout">
+    <img  src={image} alt=""/>
     </div>
 
     </section>

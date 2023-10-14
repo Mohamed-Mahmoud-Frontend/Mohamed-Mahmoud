@@ -9,7 +9,7 @@ export const Hero = () => {
     <section className="hero sectionHero" id="hero">
       <div className="left-section ">
         <div className="parent-avatar flex">
-          <img className="avatar" src="/img.png" alt="" />
+          <img className="avatar" src="./img.png" alt="" />
           <div className="name">
           <span>My name is :</span>
           <h1> Mohamed Mahmoud</h1>

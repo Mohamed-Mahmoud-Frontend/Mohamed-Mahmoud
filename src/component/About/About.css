@@ -11,6 +11,7 @@
     justify-content: space-between;
 }
 
+
 #about p {
     width: 84%;
     margin-top: 20px;
@@ -23,8 +24,9 @@
      #about p{
         width: 100%;
      }
-     #about>div>img{
-        width: 100%;
-     }
+     #about .imgAbout img{
+        width: 95%;
+ 
+}
     
 }

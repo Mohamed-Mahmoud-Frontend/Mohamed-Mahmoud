@@ -1,15 +1,15 @@
 import Marquee from "react-fast-marquee";
 import './Skills.css'
-import Html from "../../../public/assets/html.svg"
-import css from "../../../public/assets/css.svg"
-import bootstrap from "../../../public/assets/bootstrap.svg"
-import tailwind from "../../../public/assets/tailwind.svg"
-import javascript from "../../../public/assets/javascript.svg"
-import react from "../../../public/assets/react.svg"
-import next from "../../../public/assets/nextJS.svg"
-import materialui from "../../../public/assets/materialui.svg"
-import vitejs from "../../../public/assets/vitejs.svg"
-import git from "../../../public/assets/git.svg"
+import Html from "./assets/html.svg"
+import css from "./assets/css.svg"
+import bootstrap from "./assets/bootstrap.svg"
+import tailwind from "./assets/tailwind.svg"
+import javascript from "./assets/javascript.svg"
+import react from "./assets/react.svg"
+import next from "./assets/nextJS.svg"
+import materialui from "./assets/materialui.svg"
+import vitejs from "./assets/vitejs.svg"
+import git from "./assets/git.svg"
 
 
 const SkillsData = () => {
@@ -29,7 +29,7 @@ const SkillsData = () => {
           <img src={Html} alt="" />
         </div>
         <div>
-          <img src={css}alt="" />
+          <img src={css} alt="" />
         </div>
         <div>
           <img src={bootstrap} alt="" />
