@@ -63,7 +63,7 @@ export const Hero = () => {
           <button
             className="Link-cv"
           >
-            <a href="https://drive.google.com/file/d/1yYXi2E0O4yJzJbuutXAcFfYzEJRr8gaR/view">Download CV</a>
+            <a href="https://drive.google.com/file/d/11n7xpTy2BvwxHh5uPxHfz9r9W3VW42B5/view?usp=share_link">Download CV</a>
           </button>
         </div>
       </div>
