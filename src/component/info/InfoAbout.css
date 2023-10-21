@@ -15,6 +15,17 @@
     .title{
         width: 100%;
     }
+    .title>div>span{
+        display: block;
+
+    }
+    .element-about{
+        border-top:3px solid #20c997 ;
+        width: 80px;
+
+    }
+  
+
     #about {
         display: flex;
         align-items: center;

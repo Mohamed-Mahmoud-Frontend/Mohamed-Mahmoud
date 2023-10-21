@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./Main.css";
 import { BsArrowRightShort, BsGithub, BsLink45Deg } from "react-icons/bs";
-// import {allProject} from "./Project.js"
 import { AnimatePresence, motion } from "framer-motion";
 const allProject = [
   {
@@ -145,7 +144,7 @@ export const Main = () => {
 
       <section className="r-section flex">
       <AnimatePresence>
-          
+
       {arr.map((item) => {
           return (
               <motion.article 

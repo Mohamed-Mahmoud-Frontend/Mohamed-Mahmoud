@@ -3,16 +3,34 @@ import image from "../hero/img.png";
 const InfoAbout = () => {
   return (
     <section id="about">
-      <div className="title" >
-        <h2>Info about me</h2>
+      <div className="title">
+
+          <h2>About me</h2>
+
+
+
         <p className="subtitle">
           <span>
-            <b>Name :</b> Mohamed Mahmoud <b>
+            <b>Name :</b> Mohamed Mahmoud 
+            
+            <b>
             <br/>
-            Job title : </b> Front End Developer
+            <b>Age :</b> 21 
+              <br />
+              Job title :
+            </b>
+           
+            Front End Developer React
           </span>
-          <br/>
-
+          <br />
+          I’m a front-end web developer with a strong passion for creating
+          visually appealing and user-friendly web applications. I am very
+          passionate about improving my coding skills & developing applications
+          & websites. I have also gained a solid foundation in HTML5, CSS3,
+          JavaScript, Tailwind, Bootstrap, React.js, Next.js, material.ui, GitHub,
+          Responsive Web Design Compatibility, Git&GitHub, Teamwork,. I am always eager to
+          learn new technologies and techniques to enhance my skillset.
+          {/*
           <span>
             <b>Experience :</b> +1 year
           </span>
@@ -33,7 +51,7 @@ const InfoAbout = () => {
             I passionate about creating user-friendly and visually engaging
             websites that deliver an exceptional user experience.
             <br/>
-</span>
+  </span>*/}
         </p>
       </div>
       <div className="imgAbout">
