@@ -54,7 +54,7 @@ export const Hero = () => {
 
             <BsFacebook className="icon" />
           </a>
-          <a href="https://www.instagram.com/hamasa.11/">
+          <a href="https://www.instagram.com/mohamedmahmoud.04/">
 
             <BsInstagram className="icon" />
           </a>
@@ -63,7 +63,7 @@ export const Hero = () => {
           <button
             className="Link-cv"
           >
-            <a href="https://drive.google.com/file/d/11n7xpTy2BvwxHh5uPxHfz9r9W3VW42B5/view?usp=share_link">Download CV</a>
+            <a href="https://drive.google.com/file/d/1UL9rAfP_ZFUPGJg63a-YmSVYcFvFvyIW/view?usp=share_link">Download CV</a>
           </button>
         </div>
       </div>

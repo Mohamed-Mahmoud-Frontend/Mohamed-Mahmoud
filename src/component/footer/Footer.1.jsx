@@ -15,7 +15,7 @@ export const Footer = () => {
           {" "}
           <BsFacebook className="icon" />
         </a>
-        <a href="https://www.instagram.com/hamasa.11/">
+        <a href="https://www.instagram.com/mohamedmahmoud.04/">
           {" "}
           <BsInstagram className="icon" />
         </a>
