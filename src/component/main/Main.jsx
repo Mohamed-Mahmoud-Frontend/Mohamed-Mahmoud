@@ -14,6 +14,7 @@ export const Main = () => {
         <button
           onClick={() => {
             setActive("all");
+
           }}
           className={active === "all" ? "active" : null}
         >
@@ -57,6 +58,20 @@ export const Main = () => {
         >
           react & mui
         </button>
+
+        <button
+        onClick={() => {
+          const newArr = allProject.filter((item) => {
+            return item.category === "FreeLancer";
+          });
+          setArr(newArr);
+          setActive("FreeLancer");
+        }}
+        className={active === "FreeLancer" ? "active" : null}
+        type=""
+      >
+        freelancer
+      </button>
       </div>
 
       <section className="r-section flex">

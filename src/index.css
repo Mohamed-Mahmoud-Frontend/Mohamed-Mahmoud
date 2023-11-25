@@ -28,6 +28,7 @@
   --icon-hover: #333;
   --button-color: rgb(255, 0, 0);
 }
+
 /* ========html style========= */
 
 html {
@@ -131,6 +132,7 @@ button {
 .flex {
   display: flex;
 }
+
 /*========== spinner screen=========== */
 .spinner {
   background: radial-gradient(ellipse at bottom, #10161f 0%, #090c1b 100%);
@@ -152,11 +154,13 @@ button {
 .spinner .PacmanLoader {
   color: #1e1e69;
 }
+
 /*========== end screen=========== */
 
 /* =========image component skills====== */
 .imgSkills div img {
-  width: 80px;}
+  width: 80px;
+}
 
 /* =============media query======== */
 @media (max-width: 600px) {
@@ -183,7 +187,7 @@ button {
     padding: 0 var(--paddingDivider);
   }
 
-/* =============media query======== */
+  /* =============media query======== */
 
 
   .divider {
@@ -192,4 +196,5 @@ button {
     margin-left: calc(var(--paddingDivider) * -1);
   }
 }
+
 /*======== end media query==== */

@@ -93,6 +93,15 @@ function ProductProvider(props) {
       link: "https://frontend-project-tau.vercel.app/",
       gitHub: "https://github.com/Mohamed-Mahmoud-Frontend",
     },
+      {  id: 9,
+    title: "Fetra project",
+    category: "FreeLancer",
+    image: "/free.png",
+    subTitle:
+      " website client Doctor is a comprehensive website solution built using html & css & javascript and responsive design all screen .",
+    link: "https://fetra-project-responsive.vercel.app/",
+    gitHub: "https://github.com/Mohamed-Mahmoud-Frontend",
+  },
   ]);
   return (
     <ProductContext.Provider value={proudcts}>
