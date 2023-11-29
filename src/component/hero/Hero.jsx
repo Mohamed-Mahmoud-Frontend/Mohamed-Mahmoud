@@ -14,7 +14,7 @@ export const Hero = () => {
           <div className="name">
           <span>My name is :</span>
           <h1> Mohamed Mahmoud</h1>
-          
+
           </div>
 
           <div>
@@ -40,7 +40,7 @@ export const Hero = () => {
          My name is Mohamed Mahmoud, and I am Front-end Developer
            specializing in React. With a passion for creating user-friendly and
         visually appealing web applications, I have honed my skills in
-        front-end development to deliver high-quality and efficient solutions.  
+        front-end development to deliver high-quality and efficient solutions.
           </p>*/}
         <div className="icons">
           <a href="https://www.linkedin.com/in/mohamed-mahmoud-75bba4291/">
@@ -63,14 +63,14 @@ export const Hero = () => {
           <button
             className="Link-cv"
           >
-            <a href="https://drive.google.com/file/d/1UL9rAfP_ZFUPGJg63a-YmSVYcFvFvyIW/view?usp=share_link">Download CV</a>
+            <a href="https://drive.google.com/file/d/1h3XuOEgv3KwaUB6kExycRZDvVAb45avh/view?usp=sharing">Download CV</a>
           </button>
         </div>
       </div>
       <div className="right-section animation-1 ">
         <Lottie
           className="imgAnimation"
-          
+
           animationData={lap}
         />
       </div>
