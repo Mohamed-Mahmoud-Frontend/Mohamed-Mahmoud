@@ -14,7 +14,7 @@ function ProductProvider(props) {
       subTitle:
         "The Amazon Clone project is a comprehensive e-commerce solution built using ReactJS.",
       link: "https://amazonn-clone-sigma.vercel.app/",
-      gitHub: "https://github.com/Mohamed-Mahmoud-Frontend",
+      gitHub: "https://amazonn-clone-sigma.vercel.app/",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ function ProductProvider(props) {
       subTitle:
         "The website Gim fit project is a comprehensive Gim fit solution built using ReactJS.",
       link: "https://fit-club-lilac.vercel.app/",
-      gitHub: "https://github.com/Mohamed-Mahmoud-Frontend",
+      gitHub: "https://fit-club-lilac.vercel.app/",
     },
 
     {
@@ -37,7 +37,7 @@ function ProductProvider(props) {
         "The website Restaurant project is a comprehensive  Restaurant solution built using ReactJS.",
       link: "https://restrant-frontend-react.vercel.app/",
 
-      gitHub: "https://github.com/Mohamed-Mahmoud-Frontend",
+      gitHub: "https://restrant-frontend-react.vercel.app/",
     },
     {
       id: 4,
@@ -48,7 +48,7 @@ function ProductProvider(props) {
       subTitle:
         "The Amazon Clone project is a comprehensive e-commerce solution built using ReactJS.",
       link: "https://portfolio-react-mu-six.vercel.app/",
-      gitHub: "https://github.com/Mohamed-Mahmoud-Frontend",
+      gitHub: "https://portfolio-react-mu-six.vercel.app/",
     },
     {
       id: 5,
@@ -58,7 +58,7 @@ function ProductProvider(props) {
       subTitle:
         " website watch project is a comprehensive website watch solution built using bootstrap css.",
       link: "https://website-bootstrap-watch.vercel.app/",
-      gitHub: "https://github.com/Mohamed-Mahmoud-Frontend",
+      gitHub: "https://website-bootstrap-watch.vercel.app/",
     },
 
     {
@@ -69,7 +69,7 @@ function ProductProvider(props) {
       subTitle:
         "website cars project is a comprehensive website cars solution built using bootstrap css.",
       link: "https://audi-cars.vercel.app/",
-      gitHub: "https://github.com/Mohamed-Mahmoud-Frontend",
+      gitHub: "https://audi-cars.vercel.app/",
     },
     {
       id: 7,
@@ -81,7 +81,7 @@ function ProductProvider(props) {
         "The website iphone project is a comprehensive website iphone solution built using javascript .",
       link:
         "https://make-a-creative-landing-page-using-html-css-js.vercel.app/",
-      gitHub: "https://github.com/Mohamed-Mahmoud-Frontend",
+      gitHub: "https://make-a-creative-landing-page-using-html-css-js.vercel.app/",
     },
     {
       id: 8,
@@ -91,7 +91,7 @@ function ProductProvider(props) {
       subTitle:
         " website html&css project is a comprehensive website html&css solution built using html&css .",
       link: "https://frontend-project-tau.vercel.app/",
-      gitHub: "https://github.com/Mohamed-Mahmoud-Frontend",
+      gitHub: "https://frontend-project-tau.vercel.app/",
     },
       {  id: 9,
     title: "Fetra project",
@@ -100,7 +100,7 @@ function ProductProvider(props) {
     subTitle:
       " website client Doctor is a comprehensive website solution built using html & css & javascript and responsive design all screen .",
     link: "https://fetra-project-responsive.vercel.app/",
-    gitHub: "https://github.com/Mohamed-Mahmoud-Frontend",
+    gitHub: "https://fetra-project-responsive.vercel.app/",
   },
   ]);
   return (
