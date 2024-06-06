@@ -1,10 +1,22 @@
 import { useState } from "react";
 import { createContext } from "react";
-
+import dashBoard from "../../public/Dashboard.svg"
 export const ProductContext = createContext();
 
 function ProductProvider(props) {
   const [products, setProducts] = useState([
+    {
+      id: 10,
+      title: "Dashboard Lothgha app",
+      category: "react",
+      category2: "all",
+
+      image:dashBoard,
+      subTitle:
+        "The Lathgha platform's dashboard is a robust tool for managing and analyzing language learning data and user interactions. With its intuitive design and user-friendly interface, it caters to users of all levels, offering a comprehensive solution for effective management and analysis. ",
+      link: "http://specialist.lothgha.com/",
+      gitHub: "http://specialist.lothgha.com/",
+    },
     {
       id: 1,
       title: "E-commerce Amazon Clone",
