@@ -4,11 +4,13 @@ import { createContext } from "react";
 export const ProductContext = createContext();
 
 function ProductProvider(props) {
-  const [proudcts, setProudcts] = useState([
+  const [products, setProducts] = useState([
     {
       id: 1,
       title: "E-commerce Amazon Clone",
       category: "react",
+      category2: "all",
+
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXKsw0wE25AxZPm4f8P9bzRl5IKY9AvjaABg&usqp=CAU",
       subTitle:
@@ -20,6 +22,7 @@ function ProductProvider(props) {
       id: 2,
       title: "website Gim fit",
       category: "react",
+      category2: "all",
       image: "https://screenshots.codesandbox.io/jkqx3t/515.png",
       subTitle:
         "The website Gim fit project is a comprehensive Gim fit solution built using ReactJS.",
@@ -31,6 +34,7 @@ function ProductProvider(props) {
       id: 3,
       title: "website Restaurant",
       category: "react",
+      category2: "all",
       image:
         "https://mostaql.hsoubcdn.com/uploads/portfolios/873441/63c87a02398a4/Screenshot-2023-01-19-004457.png",
       subTitle:
@@ -43,6 +47,7 @@ function ProductProvider(props) {
       id: 4,
       title: "website portfolio react",
       category: "react",
+      category2: "all",
       image:
         "/629a744633cf80efdf426182_NewSongChurch-ShilohCreative-p-1080.jpeg",
       subTitle:
@@ -54,6 +59,7 @@ function ProductProvider(props) {
       id: 5,
       title: "website watch by bootstrap ",
       category: "css",
+      category2: "all",
       image: "/bandicam 2023-10-13 17-37-06-818.jpg",
       subTitle:
         " website watch project is a comprehensive website watch solution built using bootstrap css.",
@@ -65,11 +71,23 @@ function ProductProvider(props) {
       id: 6,
       title: "website audi cars by bootstrap ",
       category: "css",
+      category2: "all",
       image: "/audi.jpg",
       subTitle:
         "website cars project is a comprehensive website cars solution built using bootstrap css.",
       link: "https://audi-cars.vercel.app/",
       gitHub: "https://audi-cars.vercel.app/",
+    },
+    {
+      id: 8,
+      title: "project html&css ",
+      category: "css",
+      category2: "all",
+      image: "/2.jpg",
+      subTitle:
+        " website html&css project is a comprehensive website html&css solution built using html&css .",
+      link: "https://frontend-project-tau.vercel.app/",
+      gitHub: "https://frontend-project-tau.vercel.app/",
     },
     {
       id: 7,
@@ -83,16 +101,6 @@ function ProductProvider(props) {
         "https://make-a-creative-landing-page-using-html-css-js.vercel.app/",
       gitHub: "https://make-a-creative-landing-page-using-html-css-js.vercel.app/",
     },
-    {
-      id: 8,
-      title: "project html&css ",
-      category: "css",
-      image: "/2.jpg",
-      subTitle:
-        " website html&css project is a comprehensive website html&css solution built using html&css .",
-      link: "https://frontend-project-tau.vercel.app/",
-      gitHub: "https://frontend-project-tau.vercel.app/",
-    },
       {  id: 9,
     title: "Fetra project",
     category: "FreeLancer",
@@ -104,7 +112,7 @@ function ProductProvider(props) {
   },
   ]);
   return (
-    <ProductContext.Provider value={proudcts}>
+    <ProductContext.Provider value={products}>
       {props.children}
     </ProductContext.Provider>
   );

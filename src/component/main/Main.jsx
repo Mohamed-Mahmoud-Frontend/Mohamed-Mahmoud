@@ -13,7 +13,12 @@ export const Main = () => {
       <div className="l-section ">
         <button
           onClick={() => {
-            setActive("all");
+            setActive(allProject);
+
+            const newArr = allProject.filter((item) => {
+              return item.category2 === "all" ;
+            });
+            setArr(newArr);
 
           }}
           className={active === "all" ? "active" : null}
@@ -74,7 +79,7 @@ export const Main = () => {
       </button>
       </div>
 
-      <section className="r-section flex">
+      <section className="r-section ">
         <AnimatePresence>
           {arr.map((item) => {
             return (

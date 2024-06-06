@@ -8,8 +8,9 @@
   --primary: #000;
   --secondary: rgb(24 24 27);
   --border: rgba(63, 63, 70, 0.4);
-  --title: rgb(244 244 245);
-  --subtitle: rgb(161 161 170);
+  --navbar: radial-gradient(ellipse at bottom, #020914 0%, #090c1b 100%);
+  --title: rgb(228, 228, 228);
+  --subtitle: rgb(197, 197, 204);
   --bgHeader: rgb(39, 39, 42);
   --blue: rgb(93, 188, 252);
   --icon-hover: #d4d4d8;
@@ -18,14 +19,14 @@
 /* =======theme light ========= */
 
 .light {
-  --primary: rgb(250, 250, 250);
-  --secondary: rgb(255, 255, 255);
-  --border: rgba(202, 202, 202, 0.518);
-  --title: rgb(39 39 42);
-  --subtitle: rgb(82 82 91);
-  --bgHeader: rgb(253, 253, 253);
-  --blue: rgb(0, 149, 246);
-  --icon-hover: #333;
+  --primary: #e4e5f1;
+  --secondary: 		#d2d3db;
+  --border: #d2d3db;
+  --title: 	#484b6a;
+  --subtitle: rgb(99, 99, 102);
+  --bgHeader: #fafafa;
+  --blue: #484b6a;
+  --icon-hover: #9394a5;
   --button-color: rgb(255, 0, 0);
 }
 
@@ -45,24 +46,24 @@ html {
 }
 
 body {
-  background-color: var(--primary);
-
+  background: radial-gradient(ellipse at bottom, #090c1b 0%, #0c51b9 100%);
 }
 
 /* ========scroll bar ============ */
 ::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 5px;
+  height: 5px;
 }
 
 ::-webkit-scrollbar-track {
-  border: 7px solid #313133;
+  border: 2px solid #313133;
   box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 1rem;
+  border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #555;
-  border-radius: 1rem;
+  border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -72,20 +73,21 @@ body {
 /* ::-for Firefox */
 html {
   scroll-behavior: smooth;
-  scrollbar-color: #1f1e1e #3d4a59;
+  /* scrollbar-color: #1f1e1e #3d4a59; */
 }
 
 /* ========scroll bar ============ */
 /* =====container ========= */
 .container {
-  background-color: var(--secondary);
+  background: radial-gradient(ellipse at bottom, #0c51b9 0%, #090c1b 100%);
   color: #fff;
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   padding: 0 var(--paddingDivider);
   border: 1px solid var(--border);
 }
+
 
 .divider {
   margin: 3rem 0;
@@ -115,10 +117,10 @@ button {
   border-radius: 50%;
   border: 1px solid #fff;
   position: fixed;
+  color: white;
   bottom: 3%;
   text-align: center;
-  right: 3rem;
-  color: #0416be7c;
+  right: 2rem;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -135,7 +137,7 @@ button {
 
 /*========== spinner screen=========== */
 .spinner {
-  background: radial-gradient(ellipse at bottom, #10161f 0%, #090c1b 100%);
+  background: radial-gradient(ellipse at bottom, #0c51b9 0%, #090c1b 100%);
   width: 100%;
   height: 100vh;
 
@@ -183,7 +185,7 @@ button {
 @media (max-width: 1000px) {
   .container {
     --paddingDivider: 1.7rem;
-    width: 90%;
+    width: 98%;
     padding: 0 var(--paddingDivider);
   }
 

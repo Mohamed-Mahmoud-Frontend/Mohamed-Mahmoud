@@ -2,13 +2,13 @@
   display: flex;
   gap: 2.5rem;
   align-items: start;
-  /* border: 1px solid red; */
 }
 
 .l-section {
   display: flex;
   gap: 10px;
   flex-direction: column;
+
 }
 
 .l-section button {
@@ -41,10 +41,22 @@ button.active {
   border: 1px solid var(--blue);
 }
 .r-section{
-justify-content: center;
-flex-wrap: wrap;
-    gap: 16px;
+display: flex;
+gap: 20px;
+overflow-x: scroll;
 }
+
+@media (max-width:500px) {
+
+  .r-section{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    overflow-x: scroll;
+    }
+
+}
+
 .icon-card {
   justify-content: space-between;
   align-items: center;
@@ -56,6 +68,7 @@ flex-wrap: wrap;
 .icon-card svg {
   color: var(--subtitle);
   font-size: 1.2rem;
+
 }
 .icon-card svg:hover {
   cursor: pointer;
@@ -68,8 +81,11 @@ flex-wrap: wrap;
   -o-transition: 0.3s;
 }
 .box {
+  gap: 15px;
   width: 266px;
+  overflow: hidden;
   padding: 1rem 0.4rem;
+  margin-bottom: 5px;
 }
 article img {
   width:     100%;
@@ -85,7 +101,7 @@ border-radius: 6px !important;
 }
 .card {
   position: relative;
-  overflow: hidden;
+margin-bottom: 15px;
   box-shadow: -1px 1px 1px rgba(255, 254, 254, 0.16) ;
     width: 250px;
   border: 1px solid rgba(93, 188, 252, 0.3);
@@ -97,14 +113,24 @@ border-radius: 6px !important;
   -o-border-radius: 5px;
   background-image: linear-gradient(rgba(128, 128, 128, 0.4) , rgba(128, 128, 128, 0.4));
 }
+.card {
+  position: relative;
+  width: 250px;
+  border: 1px solid rgba(93, 188, 252, 0.3);
+  user-select: none;
+  border-radius: 5px;
+  background-image: linear-gradient(rgba(128, 128, 128, 0.4), rgba(128, 128, 128, 0.4));
+}
+
 
 
 .card:hover {
   cursor: pointer;
-    rotate: deg;
-    scale: 1.01;
-  border: 1px solid var(--blue);
-  transition: 0.3s;
+  background: var(--blue);
+    /* rotate: 10deg; */
+    /* scale: 1.01; */
+  /* border: 1px solid var(--blue); */
+   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
@@ -112,21 +138,29 @@ border-radius: 6px !important;
 }
 .title-card {
   /* width: 100%; */
-  font-size: 1.1rem;
+  text-transform:capitalize;
+  font-size: 1rem;
   margin-bottom: -1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: .3px;
   /* margin-top: 1.4rem; */
   color: var(--title);
 }
 .card .box .subtitle {
   font-size: 0.8rem;
   margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
+  text-overflow: ellipsis;
+  width: 250px;
+  overflow: hidden;
+
 }
 
 .link a {
   display: flex;
   /* align-items: center ; */
-  justify-content: center;
+  justify-content: end;
   align-self: end;
 
   margin-right: 12px;
@@ -149,7 +183,7 @@ border-radius: 6px !important;
         gap: 10px;
     }
     .l-section button{
-width: 7rem; padding: 0.8rem 0;
+width: 9.5rem; padding: 0.8rem 0;
 font-size: .9rem    ;
 
     }

@@ -23,7 +23,11 @@
         margin-bottom: 1rem;
         font-size: 1.4rem;
     }
-
+@media (max-width:500px) {
+    .name h1 {
+        width: 210px;
+    }
+}
     .name span {
         color: var(--subtitle);
     }
