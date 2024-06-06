@@ -6,10 +6,10 @@
   import { Footer } from "./component/footer/Footer";
   import { AiOutlineArrowUp } from "react-icons/ai";
   import { useState, useEffect } from "react";
-  import ScaleLoader from "react-spinners/ScaleLoader";
   import SkillsData from "./component/skills/SkillsData";
   import InfoAbout from "./component/info/InfoAbout";
   import ProductProvider from "./context/ProductContext";
+import { BounceLoader } from "react-spinners";
   function App() {
     const [loading, setLoading] = useState(false);
     const [scrollButton, setScrollButton] = useState(false);
@@ -32,8 +32,9 @@
       <div>
         {loading ? (
           <div className="spinner">
-            <ScaleLoader
-              color="#fff"
+            <BounceLoader
+              color="hsla(333, 0%, 100%, 1)"
+              size={200}
               cssOverride={{}}
               height={100}
               loading
