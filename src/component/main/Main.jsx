@@ -101,18 +101,10 @@ export const Main = () => {
                   <p className="subtitle">{item.subTitle}</p>
 
                   <div className="icon-card flex">
-                    <div style={{ gap: "11px" }} className="flex">
-                      <a href={item.gitHub}>
-                        <BsLink45Deg />
-                      </a>
-                      <a href={item.gitHub}>
-                        {" "}
-                        <BsGithub />
-                      </a>
-                    </div>
+
                     <div className="flex link">
                       <a href={item.link}>
-                        More
+                      View Demo
                         <BsArrowRightShort style={{ alignSelf: "end" }} />
                       </a>
                     </div>

@@ -13,7 +13,7 @@ function ProductProvider(props) {
 
       image:dashBoard,
       subTitle:
-        "The Lathgha platform's dashboard is a robust tool for managing and analyzing language learning data and user interactions. With its intuitive design and user-friendly interface, it caters to users of all levels, offering a comprehensive solution for effective management and analysis. ",
+        "The Lathgha platform's dashboard is a robust tool for managing and analyzing language learning data and user interactions. ",
       link: "http://specialist.lothgha.com/",
       gitHub: "http://specialist.lothgha.com/",
     },

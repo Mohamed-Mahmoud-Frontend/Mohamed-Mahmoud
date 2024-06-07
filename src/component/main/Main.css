@@ -59,6 +59,7 @@ overflow-x: scroll;
 
 .icon-card {
   justify-content: space-between;
+
   align-items: center;
 }
 .icon-card a {
@@ -67,10 +68,24 @@ overflow-x: scroll;
 }
 .icon-card svg {
   color: var(--subtitle);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  animation: trans 2s infinite ;
 
 }
-.icon-card svg:hover {
+@keyframes trans {
+  0%{
+transform: translateX(0PX);
+  }
+  50%{
+
+    transform: translateX(15PX);
+  }
+100%{
+  transform: translateX(0PX);
+
+}
+}
+/* .icon-card svg:hover {
   cursor: pointer;
   transition: 0.3s;
   color: var(--title);
@@ -79,17 +94,17 @@ overflow-x: scroll;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
-}
+} */
 .box {
   gap: 15px;
-  width: 266px;
+  width: 270px;
   overflow: hidden;
-  padding: 1rem 0.4rem;
-  margin-bottom: 5px;
+  padding: .2rem 0.4rem;
+  /* margin-bottom: 5px; */
 }
 article img {
-  width:     100%;
-height: 180px;
+  width:270px;
+height: 160px;
 padding: 3px ;
 background-size: cover;
 border-radius: 6px !important;
@@ -103,38 +118,24 @@ border-radius: 6px !important;
   position: relative;
 margin-bottom: 15px;
   box-shadow: -1px 1px 1px rgba(255, 254, 254, 0.16) ;
-    width: 250px;
+    width: 270px;
   border: 1px solid rgba(93, 188, 252, 0.3);
   user-select: none;
   border-radius: 5px;
+  transition: .6s;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   background-image: linear-gradient(rgba(128, 128, 128, 0.4) , rgba(128, 128, 128, 0.4));
 }
-.card {
-  position: relative;
-  width: 250px;
-  border: 1px solid rgba(93, 188, 252, 0.3);
-  user-select: none;
-  border-radius: 5px;
-  background-image: linear-gradient(rgba(128, 128, 128, 0.4), rgba(128, 128, 128, 0.4));
-}
 
 
 
 .card:hover {
   cursor: pointer;
-  background: var(--blue);
-    /* rotate: 10deg; */
-    /* scale: 1.01; */
-  /* border: 1px solid var(--blue); */
-   transition: 0.3s;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
+  background: var(--navbar);
+
 }
 .title-card {
   /* width: 100%; */
@@ -151,19 +152,37 @@ margin-bottom: 15px;
   font-size: 0.8rem;
   margin-top: 1.5rem;
   margin-bottom: 0.3rem;
-  text-overflow: ellipsis;
-  width: 250px;
+  width: 270px;
+  height: 50px;
   overflow: hidden;
-
+  text-overflow: ellipsis;
+  margin-bottom: 15px;
 }
-
+.link{
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .link a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15PX;
+  background: var(--border);
+  border-radius: 10px;
   display: flex;
   /* align-items: center ; */
   justify-content: end;
   align-self: end;
-
+color: var(--icon-hover);
   margin-right: 12px;
+}
+.link a:hover{
+background:var(--title);
+color: var(--border);
+
 }
 .light button.active ,.light .card:hover  {
   border: 1px solid #757474;
