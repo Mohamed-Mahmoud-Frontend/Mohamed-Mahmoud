@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { createContext } from "react";
 import dashBoard from "../../public/Dashboard.svg"
+import gym_fit from "../../public/515.png"
 export const ProductContext = createContext();
 
 function ProductProvider(props) {
@@ -35,7 +36,7 @@ function ProductProvider(props) {
       title: "website Gim fit",
       category: "react",
       category2: "all",
-      image: "https://screenshots.codesandbox.io/jkqx3t/515.png",
+      image: gym_fit,
       subTitle:
         "The website Gim fit project is a comprehensive Gim fit solution built using ReactJS.",
       link: "https://fit-club-lilac.vercel.app/",
