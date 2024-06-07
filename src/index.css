@@ -166,10 +166,10 @@ button {
 }
 
 /* =============media query======== */
+
 @media (max-width: 600px) {
   .container {
     width: 95%;
-    padding: 0 var(--paddingDivider);
   }
 
   .icon-fixed {

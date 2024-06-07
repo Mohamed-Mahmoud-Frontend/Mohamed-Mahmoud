@@ -7,7 +7,7 @@ import lap from "../../assets/animation/lap.json";
 import image from './img.png'
 export const Hero = () => {
   return (
-    <section className="hero sectionHero" id="hero">
+    <section className="hero  sectionHero" id="hero">
       <div className="left-section ">
         <div className="parent-avatar flex">
           <img className="avatar" src={image} alt="" />
@@ -63,7 +63,7 @@ export const Hero = () => {
           <button
             className="Link-cv"
           >
-            <a href="https://drive.google.com/file/d/1h3XuOEgv3KwaUB6kExycRZDvVAb45avh/view?usp=sharing">Download CV</a>
+            <a href="https://drive.google.com/file/d/10gbjUUZQtJpE1ExcmjntZ5T81F2K7EqB/view?usp=sharing">Download CV</a>
           </button>
         </div>
       </div>
